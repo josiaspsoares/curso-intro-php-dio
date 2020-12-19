@@ -3,20 +3,19 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF--8">
-        <title>Introdução ao PHP - DIO</title>
+        <title>Formulário de Inscrição</title>
+        <meta name="author" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
     </head>
     <body>
-        <pre>
-            <?php
-                require_once 'Nadador.php';
-                $n1 = new Nadador("Maria", 10);
-                $n1->exibirResumo();
-                $n2 = new Nadador("Pedro", 15);
-                $n2->exibirResumo();
-                $n3 = new Nadador("Carla", 20);
-                $n3->exibirResumo();
-            ?>
-        </pre>
+        <p>FORMULÁRIO PARA INSCRIÇÃO DE COMPETIDORES</p>
+
+        <form action="script.php" method="post">
+            <p>Seu nome: <input type="text" name="nome"/></p>
+            <p>Sua idade: <input type="text" name="idade"/></p>
+            <p><input type="submit" value="Enviar Dados"/></p>
+        </form>
     </body>
 </html>
 

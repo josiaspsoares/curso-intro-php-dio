@@ -16,6 +16,10 @@ class Nadador
         else if($this->getIdade() >= 18) $this->setCategoria("Adulto");
     }
 
+    public function exibirResumo(){
+        print "<p>{$this->getNome()} tem {$this->getIdade()} anos e compete na categoria {$this->getCategoria()}.</p>";
+    }
+
     public function getNome(): string
     {
         return $this->nome;
@@ -40,9 +44,5 @@ class Nadador
     public function setCategoria($modalidade)
     {
         $this->categoria = $modalidade;
-    }
-
-    public function exibirResumo(){
-        print "<p>{$this->getNome()} tem {$this->getIdade()} anos e está na categoria {$this->getCategoria()}.</p>";
     }
 }
