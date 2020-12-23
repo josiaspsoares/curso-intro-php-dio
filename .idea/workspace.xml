@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e57a719-4bfa-4ca7-b14b-96ae80bb87f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/servicos/servicoMensagemSessao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicos/servicoValidacao.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/script.php" afterDir="false" />
@@ -29,6 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -42,7 +45,9 @@
       <workItem from="1607785603247" duration="6159000" />
       <workItem from="1607861495328" duration="131000" />
       <workItem from="1608226887265" duration="5015000" />
-      <workItem from="1608377217994" duration="7306000" />
+      <workItem from="1608377217994" duration="11558000" />
+      <workItem from="1608564335861" duration="26000" />
+      <workItem from="1608648581570" duration="8658000" />
     </task>
     <servers />
   </component>
